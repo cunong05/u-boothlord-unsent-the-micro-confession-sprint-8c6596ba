@@ -2,7 +2,14 @@
 """Unsent: The Micro-Confession Sprint — entry program.
 
 Writes the two-part micro-confession to /output/entry.txt and prints it.
+
+Format (exactly two parts, no explanation after):
+  1. A "To:" line naming who the message was meant for.
+  2. The unsent message itself, one line, exactly as typed.
 """
+
+# ENTRY is the two-part confession: line 1 is the addressee, line 2 is
+# the unsent message. Nothing else is written to /output/entry.txt.
 
 ENTRY = (
     "To: my manager\n"
